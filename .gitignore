@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+logs/
+models/*.pkl
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.pytest_cache/

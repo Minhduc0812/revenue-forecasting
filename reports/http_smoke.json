@@ -1,0 +1,72 @@
+{
+  "health": {
+    "status": 200,
+    "body": {
+      "model_ready": true,
+      "status": "ok"
+    }
+  },
+  "countries": {
+    "status": 200,
+    "body": {
+      "countries": [
+        "all",
+        "United Kingdom",
+        "EIRE",
+        "Germany",
+        "France",
+        "Norway",
+        "Spain",
+        "Hong Kong",
+        "Portugal",
+        "Singapore",
+        "Netherlands"
+      ]
+    }
+  },
+  "all": {
+    "status": 200,
+    "body": {
+      "country": "all",
+      "forecast_end": "2019-08-30",
+      "forecast_start": "2019-08-01",
+      "horizon_days": 30,
+      "model": "baseline",
+      "revenue": 182877.60100000002,
+      "version": "2026-11-09T12:57:48.886023+00:00"
+    }
+  },
+  "country": {
+    "status": 200,
+    "body": {
+      "country": "United Kingdom",
+      "forecast_end": "2019-08-30",
+      "forecast_start": "2019-08-01",
+      "horizon_days": 30,
+      "model": "baseline",
+      "revenue": 169826.81100000002,
+      "version": "2026-11-09T12:57:48.886023+00:00"
+    }
+  },
+  "historical": {
+    "status": 200,
+    "body": {
+      "country": "all",
+      "forecast_end": "2019-06-30",
+      "forecast_start": "2019-06-01",
+      "horizon_days": 30,
+      "model": "baseline",
+      "revenue": 173372.72000000003,
+      "version": "2026-11-09T12:57:48.886023+00:00"
+    }
+  },
+  "metrics": {
+    "status": 200,
+    "body": {
+      "errors": 0,
+      "mean_latency_seconds": 0.06205212000058964,
+      "requests": 5,
+      "total_latency_seconds": 0.3102606000029482
+    }
+  }
+}

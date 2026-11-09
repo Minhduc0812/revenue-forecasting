@@ -1,0 +1,25 @@
+test_health_untrained_and_metrics (test_project.APITests.test_health_untrained_and_metrics) ... ok
+test_invalid_inputs (test_project.APITests.test_invalid_inputs) ... ok
+test_predict_country_all_and_logs (test_project.APITests.test_predict_country_all_and_logs) ... ok
+test_train_endpoint_writes_only_configured_paths (test_project.APITests.test_train_endpoint_writes_only_configured_paths) ... ok
+test_train_missing_data (test_project.APITests.test_train_missing_data) ... ok
+test_download_pins_commit_and_keeps_manifest_outside_raw (test_project.DownloadTests.test_download_pins_commit_and_keeps_manifest_outside_raw) ... ok
+test_aliases_refunds_missing_days_and_idempotence (test_project.IngestionTests.test_aliases_refunds_missing_days_and_idempotence) ... ok
+test_reject_empty_directory (test_project.IngestionTests.test_reject_empty_directory) ... ok
+test_reject_invalid_date (test_project.IngestionTests.test_reject_invalid_date) ... ok
+test_reject_missing_columns (test_project.IngestionTests.test_reject_missing_columns) ... ok
+test_reject_missing_price (test_project.IngestionTests.test_reject_missing_price) ... ok
+test_round_trip_append_and_isolation (test_project.LoggingTests.test_round_trip_append_and_isolation) ... ok
+test_all_and_country_prediction (test_project.ModelTests.test_all_and_country_prediction) ... ok
+test_atomic_round_trip_uses_temporary_model_directory (test_project.ModelTests.test_atomic_round_trip_uses_temporary_model_directory) ... ok
+test_features_ignore_future (test_project.ModelTests.test_features_ignore_future) ... ok
+test_historical_predictions_do_not_read_future (test_project.ModelTests.test_historical_predictions_do_not_read_future) ... ok
+test_invalid_country_date_and_short_history (test_project.ModelTests.test_invalid_country_date_and_short_history) ... ok
+test_purged_splits_and_selection (test_project.ModelTests.test_purged_splits_and_selection) ... ok
+test_target_is_exactly_next_30_days (test_project.ModelTests.test_target_is_exactly_next_30_days) ... ok
+test_only_mature_forecasts_deduplicated (test_project.MonitoringTests.test_only_mature_forecasts_deduplicated) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 2.378s
+
+OK

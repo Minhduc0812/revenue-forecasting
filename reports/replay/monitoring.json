@@ -1,0 +1,10 @@
+[
+  {
+    "country": "all",
+    "version": "2026-11-09T12:57:48.886023+00:00",
+    "model": "baseline",
+    "matured_forecasts": 30,
+    "mae": 23152.69436666666,
+    "rmse": 26348.07287147488
+  }
+]
